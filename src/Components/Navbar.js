@@ -32,10 +32,10 @@ function App() {
       <NavLink href="#title"><img className='title' src={title} /></NavLink>
     </Nav>
     <Nav>
-      <Nav.Link href=""><img className='social-media' src={yt}/></Nav.Link>
-      <Nav.Link href=""><img className='social-media' src={insta}/></Nav.Link>
-      <Nav.Link href=""><img className='social-media' src={reddit}/></Nav.Link>
-      <Nav.Link href=""><img className='social-media' src={twitter}/></Nav.Link>
+      <Nav.Link href="https://www.youtube.com/channel/UCqU0YrP58xBnBTk4XzeJTPw"><img className='social-media' src={yt}/></Nav.Link>
+      <Nav.Link href="https://www.instagram.com/zacks_cozy_corner/"><img className='social-media' src={insta}/></Nav.Link>
+      <Nav.Link href="https://www.reddit.com/user/ZskrillaVkilla"><img className='social-media' src={reddit}/></Nav.Link>
+      <Nav.Link href="https://twitter.com/SpayceKowBoi"><img className='social-media' src={twitter}/></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>
