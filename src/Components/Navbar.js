@@ -6,6 +6,7 @@ import yt from '../Images/yt.png';
 import insta from '../Images/insta.png';
 import reddit from '../Images/reddit.png';
 import twitter from '../Images/twitter.png';
+import patreon from '../Images/patreon.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
     <div className='buffer2' />
     <Nav>
       <Nav.Link href="https://www.youtube.com/channel/UCqU0YrP58xBnBTk4XzeJTPw"><img className='social-media' src={yt}/></Nav.Link>
+      <Nav.Link href="https://www.patreon.com/hiraeth2022"><img className='social-media' src={patreon}/></Nav.Link>
       <Nav.Link href="https://www.instagram.com/zacks_cozy_corner/"><img className='social-media' src={insta}/></Nav.Link>
       <Nav.Link href="https://www.reddit.com/user/ZskrillaVkilla"><img className='social-media' src={reddit}/></Nav.Link>
       <Nav.Link href="https://twitter.com/SpayceKowBoi"><img className='social-media' src={twitter}/></Nav.Link>
