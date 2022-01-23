@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import './App.css';
+import './css/index.css';
+import './css/App.css';
 import Navbar from './Components/Navbar';
 import ImageCard from './Components/ImageCard';
 import Content from './Components/Content';

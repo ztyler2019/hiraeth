@@ -1,7 +1,11 @@
 import { Navbar, Container, Nav, NavDropdown, NavLink } from 'react-bootstrap';
 
 import logo from '../Images/head.png';
-import title from '../Images/hiraeth1.png'
+import title from '../Images/hiraeth1.png';
+import yt from '../Images/yt.png';
+import insta from '../Images/insta.png';
+import reddit from '../Images/reddit.png';
+import twitter from '../Images/twitter.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -22,13 +26,16 @@ function App() {
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown>
+      
+    </Nav>
+    <Nav>
       <NavLink href="#title"><img className='title' src={title} /></NavLink>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
+      <Nav.Link href=""><img className='social-media' src={yt}/></Nav.Link>
+      <Nav.Link href=""><img className='social-media' src={insta}/></Nav.Link>
+      <Nav.Link href=""><img className='social-media' src={reddit}/></Nav.Link>
+      <Nav.Link href=""><img className='social-media' src={twitter}/></Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>

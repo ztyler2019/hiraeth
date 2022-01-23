@@ -49,7 +49,7 @@ export default function App() {
       <div className="eth-card">
         <main>
           <h1>
-            Donate
+            Help Fund Future Projects
           </h1>
           <div>
             <div className="my-3 input">
@@ -57,7 +57,7 @@ export default function App() {
                 name="ether"
                 type="text"
                 className="input input-bordered block w-full focus:ring focus:outline-none"
-                placeholder="Money in ETH"
+                placeholder="Ethereum"
               />
             </div>
           </div>

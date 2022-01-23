@@ -1,10 +1,14 @@
 .eth-card {
-  background: rgb(255,255,255);
-  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(255,255,255,0.9) 95%, rgba(255,255,255,0.1) 100%);
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.9) 25%, rgba(0,0,0,.9) 75%, rgba(0,0,0,0) 100%);
     width: 68%;
     margin: auto;
-    border-radius: 50px;
-  color: black;
+    border-image: linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(0,0,0,0) 100%) 1;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.eth-card h1 {
+  color: white;
 }
 
 .input {
@@ -12,12 +16,13 @@
   margin: auto;
   text-align: center;
   font-size: 20pt;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .button {
     width: 48%;
     font-size: 20pt;
-    background-color: rgb(134, 134, 134);
-    border-radius: 20px;
+    background-color: rgba(134, 134, 134, 0);
+    border-radius: 10px;
+    color: white;
 }
