@@ -6,8 +6,8 @@ function App() {
     <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-5">
-                <h5><i class="fa fa-road"></i> ACME CO INC.</h5>
+            <div class="col-md-5 info">
+                <h5><i class="fa fa-road"></i> Cubic Collective Co.</h5>
                 <div class="row">
                     <div class="col-6">
                         <ul class="list-unstyled">
@@ -27,15 +27,12 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 message">
                 <h5 class="text-md-right">Contact Us</h5>
-                <hr/>
-            </div>
-            <div class="col-md-5">
                 <form>
-                    <fieldset class="form-group">
+                    {/*<fieldset class="form-group">
                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"/>
-                    </fieldset>
+  </fieldset>*/}
                     <fieldset class="form-group">
                         <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
                     </fieldset>

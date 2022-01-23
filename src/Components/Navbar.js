@@ -16,8 +16,9 @@ function App() {
   <Container>
   <Navbar.Brand href="#home"><img src={logo} className="logo" alt="logo" /></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <div className='buffer'/>
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
+    {/*<Nav className="me-auto">
       <Nav.Link href="#features">Money Features</Nav.Link>
       <NavDropdown title="Money Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -25,12 +26,13 @@ function App() {
         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
+  </NavDropdown>
       
-    </Nav>
+    </Nav>*/}
     <Nav>
       <NavLink href="#title"><img className='title' src={title} /></NavLink>
     </Nav>
+    <div className='buffer2' />
     <Nav>
       <Nav.Link href="https://www.youtube.com/channel/UCqU0YrP58xBnBTk4XzeJTPw"><img className='social-media' src={yt}/></Nav.Link>
       <Nav.Link href="https://www.instagram.com/zacks_cozy_corner/"><img className='social-media' src={insta}/></Nav.Link>

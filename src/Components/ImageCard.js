@@ -5,6 +5,12 @@ import intoTheLight from '../Images/intoTheLight.png';
 import lighthouseOrtho from '../Images/lighthouseOrtho.png';
 import meditation_medication from '../Images/meditation += medication.gif';
 import mfw3 from '../Images/mfw3.png';
+import apartment from '../Images/apartment1.png';
+import walkAway from '../Images/walkAway.gif';
+import moonView from '../Images/moon view.png';
+import ohNo from '../Images/oh no4.png';
+import tears from '../Images/tears5.png';
+
 
 function App() {
   return (
@@ -20,12 +26,13 @@ function App() {
           <ETHpayment />
       </div>
       <div class="pic-ctn">
-          <img src="https://picsum.photos/200/300?t=1" alt="" class="pic" />
-          <img src="https://picsum.photos/200/300?t=2" alt="" class="pic" />
-          <img src="https://picsum.photos/200/300?t=3" alt="" class="pic" />
-          <img src="https://picsum.photos/200/300?t=4" alt="" class="pic" />
-          <img src="https://picsum.photos/200/300?t=5" alt="" class="pic" />
+          <img src={apartment} alt="" class="pic" />
+          <img src={walkAway} alt="" class="pic" />
+          <img src={moonView} alt="" class="pic" />
+          <img src={ohNo} alt="" class="pic" />
+          <img src={tears} alt="" class="pic" />
         </div>
+      
         
     </div>
   );
