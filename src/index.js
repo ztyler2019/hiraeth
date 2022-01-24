@@ -7,6 +7,7 @@ import Header from './Components/Header'
 import ImageCard from './Components/ImageCard';
 import Content from './Components/Content';
 import Footer from './Components/Footer';
+import BackToTop from './Components/BackToTop';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -18,6 +19,7 @@ ReactDOM.render(
     <ImageCard />
     <Content />
     <Footer />
+    <BackToTop />
     </div>
   </React.StrictMode>,
   document.getElementById('root')

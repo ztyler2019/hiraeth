@@ -1,6 +1,5 @@
 import { Navbar, Container, Nav, NavDropdown, NavLink } from 'react-bootstrap';
 
-import logo from '../Images/head.png';
 import title from '../Images/hiraeth1.png';
 import yt from '../Images/yt.png';
 import insta from '../Images/insta.png';
@@ -13,12 +12,11 @@ function App() {
   return (
 
         //
-        <Navbar className='navbar' collapseOnSelect expand="lg" variant="light" sticky="top">
+        <Navbar className='navbar' collapseOnSelect expand="lg" variant="light">
   <Container>
-  <Navbar.Brand href="#home"><img src={logo} className="logo" alt="logo" /></Navbar.Brand>
+  <Navbar.Brand href="#home"><img src={title} className="logo" alt="logo" /></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <div className='buffer'/>
-  <Navbar.Collapse id="responsive-navbar-nav">
     {/*<Nav className="me-auto">
       <Nav.Link href="#features">Money Features</Nav.Link>
       <NavDropdown title="Money Dropdown" id="collasible-nav-dropdown">
@@ -30,9 +28,7 @@ function App() {
   </NavDropdown>
       
     </Nav>*/}
-    <Nav>
-      <NavLink href="#title"><img className='title' src={title} /></NavLink>
-    </Nav>
+    
     <div className='buffer2' />
     <Nav>
       <Nav.Link href="https://www.youtube.com/channel/UCqU0YrP58xBnBTk4XzeJTPw"><img className='social-media' src={yt}/></Nav.Link>
@@ -41,7 +37,6 @@ function App() {
       <Nav.Link href="https://www.reddit.com/user/ZskrillaVkilla"><img className='social-media' src={reddit}/></Nav.Link>
       <Nav.Link href="https://twitter.com/SpayceKowBoi"><img className='social-media' src={twitter}/></Nav.Link>
     </Nav>
-  </Navbar.Collapse>
   </Container>
 </Navbar>
     
