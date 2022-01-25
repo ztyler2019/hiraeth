@@ -7,7 +7,7 @@ function App() {
     <div className="image-card image-card-fade">
         <div className='nft-box'>
           <div className='frame'>
-          <img src={frame}/>
+          <img src={frame} alt='frame'/>
           </div>
           <ETHpayment />
         </div>
