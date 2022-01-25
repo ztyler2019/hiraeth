@@ -1,9 +1,12 @@
 /* general */
-div{
-  /*font-family: 'Amatic SC';font-size: 22px;*/
-  font-family: 'Darker Grotesque', sans-serif;
-  font-size: 22px;
-}
+
+/*div {
+  font-family: 'Hiraeth';
+  src: url('../Hiraeth-Regular(1).ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}*/
 
 h1 {
   text-decoration: underline;
@@ -48,7 +51,10 @@ h1 {
 }
 
 .buffer {
-  width: 25%;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 40pt;
+  font-weight: bold;
 }
 
 .buffer2 {
@@ -61,8 +67,8 @@ h1 {
 
 .social-media {
   margin-top: 40px;
- width: 64px;
- animation: float 6s ease-in-out infinite;
+  width: 64px;
+  animation: float 6s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -81,29 +87,11 @@ h1 {
 	}
 }
 
-/* Header */
-
-.header {
-  margin: auto;
-  text-align: center;
-}
-
-.header h1 {
-  text-decoration: none;
-}
-
 /* Image Card */
 .nft-box {
   width: 68%;
   margin: auto;
-  text-align: left;
-  position: relative;
-  display: inline;
-}
-
-.frame{
-max-width: 512px;
-float: left;
+  
 }
 
 .nft-box img{
@@ -138,65 +126,6 @@ float: left;
   color: white;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
-.pic-ctn {
-  margin-top: 75px;
-  margin-bottom: 50px;
-  position: relative;
-  z-index: 0;
-}
-
-.frame {
-  z-index: 10;
-}
-
-@keyframes display {
-  0% {
-    transform: translateX(-25vw);
-    opacity: 1;
-    z-index: 1;
-  }
-  100% {
-    transform: translateX(-25vw);
-    opacity: 1;
-  }
-}
-
-.pic-ctn > img {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 100px);
-  opacity: 0;
-  animation: display 20s infinite;
-  animation-timing-function: ease;
-  height: 300px;
-  width: 300px;
-  background-color:  rgb(255, 255, 255, .1);
-  padding: 1px;
-}
-
-.pic-ctn div {
-  background-color: #61dafb;
-  width: 100%;
-}
-
-img:nth-child(2) {
-  animation-delay: 4s;
-}
-img:nth-child(3) {
-  animation-delay: 8s;
-}
-img:nth-child(4) {
-  animation-delay: 12s;
-}
-img:nth-child(5) {
-  animation-delay: 16s;
-}
-
 .alert {
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -210,7 +139,11 @@ img:nth-child(5) {
   display:  flex;
   justify-content: center;
   align-items: center;
-  margin: auto;  
+  margin: auto;
+}
+
+.content h1 {
+  text-decoration: none;
 }
 
 /* footer */
@@ -294,5 +227,5 @@ footer .form-control {
 
 .to-top button {
   width: 40px;
-  border-radius: 20px;
+  border-radius: 5px;
 }

@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import './css/App.css';
 import Navbar from './Components/Navbar';
-import Header from './Components/Header'
 import ImageCard from './Components/ImageCard';
 import Content from './Components/Content';
 import Footer from './Components/Footer';
@@ -15,7 +14,6 @@ ReactDOM.render(
   <React.StrictMode>
     <div className='App App-tint'>
     <Navbar />
-    <Header />
     <ImageCard />
     <Content />
     <Footer />

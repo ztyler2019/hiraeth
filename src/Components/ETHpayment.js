@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ethers } from "ethers";
 import ErrorMessage from "../ErrorMessage";
 import TxList from "../TxList";
+import PaymentButton from './Payments';
 
 //import '../css/ETHcard.css'
 import '../css/ETH.css' 
@@ -52,6 +53,7 @@ export default function App() {
             Help Fund Future Projects
           </h1>
           <div>
+            <PaymentButton />
             <div className="my-3 input">
               <input
                 name="ether"
@@ -60,6 +62,7 @@ export default function App() {
                 placeholder="Ethereum"
               />
             </div>
+            
           </div>
         </main>
         <footer className="p-3">
