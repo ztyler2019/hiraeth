@@ -1,4 +1,4 @@
-import { PaymentButton } from "react-paypal-button-v2";
+//import { PaymentButton } from "react-paypal-button-v2";
 
 function Payment() {
     return (
