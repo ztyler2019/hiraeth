@@ -171,12 +171,12 @@ margin: 5px;
 
 .footer {
   background-color: rgba(177, 177, 177, 0.767);
-  height: 200px;
   border: 0px;
   border-top: 2px;
   border-style: solid;
   padding-top: 10px;
   margin: auto;
+  padding-bottom: 20px;
   border-image: linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(0,0,0,0) 100%) 1;
 }
 
@@ -217,25 +217,21 @@ footer .form-control {
 .footer button {
   background-color: white;
   margin-top: 10px;
-  height: 40px;
+  height: 100px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.info {
-  margin-left: 5%;
-  margin-right: auto;
+.footer p {
+  transform: rotate(-90deg);
+  margin: auto;
+  padding-bottom: 40px;
 }
 
-.message {
-  margin-right: 5%;
-}
-
-.bottom-flare {
-  background-color: rgb(224, 224, 224);
-  height: 20px;
+.form-control {
+  height: 100px;
 }
 
 /* Back to top button */
