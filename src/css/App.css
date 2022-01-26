@@ -45,20 +45,21 @@ h1 {
 }
 
 .title {
-  width: 400px;
   margin: auto;
-  animation: float 6s ease-in-out infinite;
+  width: 100%;
 }
 
-.buffer {
+.countdown {
   margin: auto;
   margin-top: 40px;
+  text-align: center;
   font-size: 40pt;
   font-weight: bold;
 }
 
-.buffer2 {
-  width: 15%px;
+.social-container {
+  display: flex;
+  justify-content: center;
 }
 
 .me-auto {

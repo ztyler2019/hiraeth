@@ -105,11 +105,17 @@ export default function App() {
           </div>
 
             <div className="my-3 input">
+              
               <input
                 name="ether"
                 type="text"
                 className="input input-bordered block w-full focus:ring focus:outline-none"
                 placeholder={paymentType}
+                onKeyPress={(event) => {
+                  if (!/[0-9]/.test(event.key)) {
+                    event.preventDefault();
+                  }
+                }}
               />
             </div>
             
