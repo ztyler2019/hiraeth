@@ -44,13 +44,12 @@ export default function App() {
     await startPayment({
       setError,
       setTxs,
-      ether: data.get("ether"),
-      addr: data.get("addr")
+      ether: data.get("amount")
     });
     } else if (paymentType === "CashApp") {
-      window.location.href = "https://cash.app/$SpaceKowBoi/5";
+      window.location.href = "https://cash.app/$SpaceKowBoi/" + data.get("amount");
     } else if (paymentType === "Venmo") {
-      window.location.href = "venmo://paycharge?txn=pay&recipients=Zack-Tyler-19&amount=5&note=Donation%20for%20future%20Cubic%20Collective%20projects";
+      window.location.href = "venmo://paycharge?txn=pay&recipients=Zack-Tyler-19&amount=" + data.get("amount") + "&note=Donation%20for%20future%20Cubic%20Collective%20projects";
     }
     
   };
@@ -107,7 +106,7 @@ export default function App() {
             <div className="my-3 input">
               
               <input
-                name="ether"
+                name="amount"
                 type="text"
                 className="input input-bordered block w-full focus:ring focus:outline-none"
                 placeholder={paymentType}

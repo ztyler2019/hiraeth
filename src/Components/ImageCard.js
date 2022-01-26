@@ -1,4 +1,4 @@
-import ETHpayment from './ETHpayment';
+import Payment from './Payment';
 
 import frame from '../Images/frame.png';
 
@@ -11,7 +11,7 @@ function App() {
             <img src={frame} alt='frame' className='frame'/>
           </div>
           <div className='col-xl-8 col-lg-6 col-md-12'>
-            <ETHpayment />
+            <Payment />
           </div>
       </div>
       </div>
