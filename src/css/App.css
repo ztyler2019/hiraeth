@@ -131,6 +131,30 @@ h1 {
   font-weight: bold;
 }
 
+    .radio_item{
+    display: none !important;
+    }
+
+    .label_item {
+    opacity: 0.25;
+    }
+    
+    .radio_item:checked + label {
+    opacity: 1;
+    }
+
+label {
+cursor: pointer;
+width: 64px;
+border-radius: 15px;
+margin: 5px;
+}
+
+.ethereum {
+  background-color: rgba(255, 255, 255, 1);
+  width: 64px;
+}
+
 /* content */
 
 .content {
