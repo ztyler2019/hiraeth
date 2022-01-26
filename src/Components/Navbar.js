@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Navbar, Container} from 'react-bootstrap';
 import Countdown from 'react-countdown';
 
 import title from '../Images/hiraeth1.png';
