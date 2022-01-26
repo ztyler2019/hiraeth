@@ -38,10 +38,10 @@ function App() {
                     </fieldset>*/}
                     <div className="container">
                     <div className="row">
-                    <fieldset class="form-group col-10">
+                    <fieldset class="form-group col-sm-10 col-8">
                         <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
                     </fieldset>
-                    <fieldset class="form-group text-xs-right col-2">
+                    <fieldset class="form-group text-xs-right col-md-2 col-sm-1 col-2">
                         <button type="button" class="btn btn-secondary-outline btn-lg send"><p>Send</p></button>
                     </fieldset>
                     </div>

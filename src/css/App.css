@@ -8,6 +8,11 @@
   font-display: swap;
 }*/
 
+html,body
+{
+    overflow-x: hidden; 
+}
+
 h1 {
   text-decoration: underline;
 }
@@ -244,5 +249,10 @@ footer .form-control {
 
 .to-top button {
   width: 40px;
-  border-radius: 5px;
+  height: 40px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: auto;
+  mix-blend-mode: difference;
 }
