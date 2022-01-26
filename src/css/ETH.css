@@ -1,19 +1,17 @@
 .eth-card {
   background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.9) 25%, rgba(0,0,0,.9) 75%, rgba(0,0,0,0) 100%);
-    
   margin: auto;
   border-image: linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(0,0,0,0) 100%) 1;
   border-width: 3px;
   border-style: solid;
-  height: 450px;
-  float: right;
-  width: calc(100% - 450px);
+  height: 415px;
 }
 
 .eth-card h1 {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  margin-top: 60px;
 }
 
 .input {
