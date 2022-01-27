@@ -145,7 +145,7 @@ h1 {
     opacity: 1;
     }
 
-label {
+.label_item {
 cursor: pointer;
 width: 64px;
 border-radius: 15px;

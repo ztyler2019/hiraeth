@@ -28,7 +28,8 @@ const startPayment = async ({ setError, setTxs, ether }) => {
     console.log("tx", tx);
     setTxs([tx]);
   } catch (err) {
-    setError(err.message);
+    setError(err.message.substring(0, err.message.indexOf('(')));
+    
   }
 };
 
@@ -111,7 +112,7 @@ export default function App() {
                 className="input input-bordered block w-full focus:ring focus:outline-none"
                 placeholder={paymentType}
                 onKeyPress={(event) => {
-                  if (!/[0-9]/.test(event.key)) {
+                  if (!/[0-9]|\./.test(event.key)) {
                     event.preventDefault();
                   }
                 }}
