@@ -15,7 +15,7 @@ function App() {
             and it is everywhere.</p>
             <br/>
             <p>This project was created as a means of conveying something I am unable to
-            achive in words. A self-exploration and a general study on human behavior.
+            achieve in words. A self-exploration and a general study on human behavior.
             It is accepted that certain meanings will get lost in the noise, but the goal
             for this project was to create something that taps into everyone's
             inner being, without being too generic to loose all meaning.
