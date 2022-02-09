@@ -58,7 +58,7 @@ h1 {
   margin: auto;
   margin-top: 40px;
   text-align: center;
-  font-size: 40pt;
+  font-size: 24pt;
   font-weight: bold;
 }
 
@@ -125,7 +125,6 @@ h1 {
 .frame {
   width: 100%;
 }
-
 .test {
   background-color: blanchedalmond;
 }
@@ -214,7 +213,7 @@ filter: grayscale(100%);
   border-style: solid;
   padding-top: 10px;
   margin: auto;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   border-image: linear-gradient( 90deg, rgba(0,0,0,0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(0,0,0,0) 100%) 1;
 }
 
@@ -275,7 +274,7 @@ footer .form-control {
 /* Back to top button */
 .to-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 7px;
   right: 50px;
   width: 20px;
   z-index: 3;

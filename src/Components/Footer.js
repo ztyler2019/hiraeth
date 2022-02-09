@@ -8,7 +8,7 @@ function App() {
         <div class="row">
             <div class="col-md-4">
                 <h5><i class="fa fa-road"></i> Cubic Collective Co.</h5>
-                <div class="row">
+                {/*<div class="row">
                     <div class="col-6">
                         <ul class="list-unstyled">
                             <li><a href="#home">Product</a></li>
@@ -25,17 +25,17 @@ function App() {
                             <li><a href="#home">About</a></li>
                         </ul>
                     </div>
-                </div>
+                </div>*/}
             </div>
             <div className="col-md-4">
 
             </div>
-            <div class="col-md-4 message">
+            {/*<div class="col-md-4 message">
                 <h5 class="text-md-right">Contact Us</h5>
                 <form>
-                    {/*<fieldset class="form-group">
+                    <fieldset class="form-group">
                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"/>
-                    </fieldset>*/}
+                    </fieldset>
                     <div className="container">
                     <div className="row">
                     <fieldset class="form-group col-sm-10 col-8">
@@ -47,7 +47,7 @@ function App() {
                     </div>
                     </div>
                 </form>
-            </div>
+            </div>*/}
         </div>
     </div>
 </footer>

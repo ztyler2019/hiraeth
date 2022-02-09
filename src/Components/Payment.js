@@ -81,22 +81,22 @@ export default function App() {
             <input 
               type="radio" 
               className="radio_item" 
-              value="Venmo" 
-              name="item" 
-              id="radio2"
-              onChange={(e) => setPaymentType("Venmo")}
-            />
-            <label className="label_item" htmlFor="radio2"> <Venmo/> </label>
-
-            <input 
-              type="radio" 
-              className="radio_item" 
               value="Ethereum" 
               name="item" 
               id="radio3"
               onChange={(e) => setPaymentType("Ethereum")}
             />
             <label className="label_item ethereum" htmlFor="radio3"> <Ethereum/> </label>
+
+            <input 
+              type="radio" 
+              className="radio_item" 
+              value="Venmo" 
+              name="item" 
+              id="radio2"
+              onChange={(e) => setPaymentType("Venmo")}
+            />
+            <label className="label_item" htmlFor="radio2"> <Venmo/> </label>
 
             {/*<button className='payment-buttons'><CashApp/></button>
 

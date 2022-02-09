@@ -1,7 +1,7 @@
 import { Navbar, Container} from 'react-bootstrap';
 import Countdown from 'react-countdown';
 
-import title from '../Images/hiraeth1.png';
+import title from '../Images/title.png';
 import yt from '../Images/yt.png';
 import insta from '../Images/insta.png';
 import reddit from '../Images/reddit.png';
@@ -21,7 +21,7 @@ function App() {
         </div>
 
         <div className='countdown col-lg-4 col-md-12 col-12'>
-          <Countdown date="11/11/2022"/>
+         [ <Countdown date="11/11/2022"/> ]
         </div>
     
         <div className='social-container col-lg-4 col-md-3 col-12' >
