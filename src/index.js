@@ -10,6 +10,7 @@ import Footer from './Components/Footer';
 import BackToTop from './Components/BackToTop';
 
 import reportWebVitals from './reportWebVitals';
+import Sidebar from './Components/Sidebar';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,9 +18,6 @@ ReactDOM.render(
     <Navbar />
     <Header />
     <ImageCard />
-    <Content />
-    <Footer />
-    <BackToTop />
     </div>
   </React.StrictMode>,
   document.getElementById('root')
