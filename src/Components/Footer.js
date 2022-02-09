@@ -7,7 +7,7 @@ function App() {
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <h5><i class="fa fa-road"></i> Cubic Collective Co.</h5>
+                <h5 className="company">Cubic Collective Co.</h5>
                 {/*<div class="row">
                     <div class="col-6">
                         <ul class="list-unstyled">

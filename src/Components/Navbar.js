@@ -21,7 +21,7 @@ function App() {
         </div>
 
         <div className='countdown col-lg-4 col-md-12 col-12'>
-         [ <Countdown date="11/11/2022"/> ]
+          <p className='text'>[ <Countdown date="11/11/2022"/> ]</p>
         </div>
     
         <div className='social-container col-lg-4 col-md-3 col-12' >
