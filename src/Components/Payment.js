@@ -78,7 +78,7 @@ export default function App() {
             />
             <label className="label_item" htmlFor="radio1"> <CashApp/> </label>
 
-            <input 
+            {/*<input 
               type="radio" 
               className="radio_item" 
               value="Ethereum" 
@@ -86,7 +86,7 @@ export default function App() {
               id="radio3"
               onChange={(e) => setPaymentType("Ethereum")}
             />
-            <label className="label_item ethereum" htmlFor="radio3"> <Ethereum/> </label>
+  <label className="label_item ethereum" htmlFor="radio3"> <Ethereum/> </label>*/}
 
             <input 
               type="radio" 
