@@ -5,7 +5,7 @@ import TxList from "../TxList";
 
 import { ReactComponent as CashApp } from '../Images/cash-app-seeklogo.com.svg';
 import { ReactComponent as Venmo } from '../Images/venmo-icon.svg';
-import { ReactComponent as Ethereum } from '../Images/ethereum.svg';
+//import { ReactComponent as Ethereum } from '../Images/ethereum.svg';
 
 //import '../css/ETHcard.css'
 import '../css/ETH.css' 
