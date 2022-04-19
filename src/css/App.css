@@ -71,10 +71,45 @@ h1 {
   width: 10% !important;
 }
 
-.social-media {
+.social-media1 {
   margin-top: 40px;
   width: 64px;
   animation: float 6s ease-in-out infinite;
+}
+
+.social-media2 {
+  margin-top: 40px;
+  width: 64px;
+  animation: float 6.3s ease-in-out infinite;
+  animation-delay: -.2s;
+}
+
+.social-media3 {
+  margin-top: 40px;
+  width: 64px;
+  animation: float 5.8s ease-in-out infinite;
+  animation-delay: -.5s;
+}
+
+.social-media4 {
+  margin-top: 40px;
+  width: 64px;
+  animation: float 5.9s ease-in-out infinite;
+  animation-delay: -.3s;
+}
+
+.social-media5 {
+  margin-top: 40px;
+  width: 64px;
+  animation: float 6.2s ease-in-out infinite;
+  animation-delay: -.4s;
+}
+
+.social-media6 {
+  margin-top: 40px;
+  width: 64px;
+  animation: float 6.1s ease-in-out infinite;
+  animation-delay: -.1s;
 }
 
 @keyframes float {
