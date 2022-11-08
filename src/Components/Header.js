@@ -6,7 +6,7 @@ function Header() {
             <div className="overlay"/>
             <div className="video">
             <ReactPlayer
-                url="https://www.youtube.com/watch?v=XzM79LAxXvg"
+                url="https://youtu.be/uBg-9D7w_74"
                 playing={true}
                 muted={true}
                 loop={true}
