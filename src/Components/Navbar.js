@@ -6,7 +6,7 @@ import yt from '../Images/yt.png';
 import insta from '../Images/insta.png';
 import reddit from '../Images/reddit.png';
 import twitter from '../Images/twitter.png';
-import patreon from '../Images/patreon.png';
+//import patreon from '../Images/patreon.png';
 import kickstarter from '../Images/kickstarter.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
